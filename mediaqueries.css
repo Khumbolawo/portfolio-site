@@ -1,0 +1,9 @@
+/*code to disable reg nav bar and enable hamburger menu at smaller screen size */
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+}
